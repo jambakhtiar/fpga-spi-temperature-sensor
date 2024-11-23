@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/jam/Downloads/spi/spi_2325.qarlog
+
+Archive:	/home/jam/Downloads/spi/spi_2325.qar
+Date:		Mon Aug 26 13:36:59 2024
+Quartus Prime		23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+	=========== Files Selected: ===========
+/home/jam/Downloads/spi/spi.qpf
+/home/jam/Downloads/spi/spi.qsf
+/home/jam/Downloads/spi/spi_adc.vhd
+/home/jam/Downloads/spi/spi_adc_tb.vhd
+/home/jam/altera/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

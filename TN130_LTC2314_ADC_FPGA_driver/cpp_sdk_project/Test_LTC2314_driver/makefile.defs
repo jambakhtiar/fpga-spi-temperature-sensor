@@ -1,0 +1,1 @@
+LIBS :=  -lbbos -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,-lbbos,--end-group

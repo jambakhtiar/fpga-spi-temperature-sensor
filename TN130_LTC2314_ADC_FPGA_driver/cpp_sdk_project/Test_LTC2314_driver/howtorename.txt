@@ -1,0 +1,19 @@
+If a project is renamed, the error "resource is out of sync with the file 
+system" appears when performing particular operations such as renaming again or
+exporting the project. This is due to an Eclipse bug.
+
+Ref: Bug 415531 - Refresh Policy resources not tracked through rename.
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=415531
+
+Here is the procedure to avoid this issue when renaming a project:
+
+- Right click on project
+- Click "Rename..."
+- Enter new name
+- Right click on project
+- Click "Properties"
+- Click on "C/C++ Build"
+- Select "Refresh Policy" tab
+- Delete the resource with the old name
+- Click "Add Resource..." and select the folder with the name of your project
+- Click "Apply and close"
